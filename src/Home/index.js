@@ -1,11 +1,12 @@
 import React from 'react'
 
-import {Container, Tittle} from './styles'
+import {Container, Title, SubTitle} from './styles'
 
 export default function Home () {
     return (
         <Container >
-            <Tittle > Essa é a Home</Tittle>
+            <Title>Teste</Title>
+            <SubTitle>Alguma coisa aqui</SubTitle>
         </Container>
     )
 }

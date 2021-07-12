@@ -7,6 +7,12 @@ export const Container = styled.View`
     background-color: #121212
 `;
 
-export const Tittle = styled.Text`
-    color: white
+export const Title = styled.Text`
+    font-size: 28px;
+    color: #fff;
+`;
+
+export const SubTitle = styled.Text`
+    font-size: 20px;
+    color: red;
 `;
