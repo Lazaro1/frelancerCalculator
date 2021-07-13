@@ -1,20 +1,17 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-
 import Home from './src/Home';
+
+import { ThemeProvider } from 'styled-components'
+
+const colors ={
+  bg: '#262626',
+  color: '#D3D3D3'
+}
 
 export default function App() {
   return (
-    <Home />
+    <ThemeProvider theme={colors}>
+      <Home />
+    </ThemeProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
