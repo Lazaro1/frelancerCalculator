@@ -20,6 +20,13 @@ export const SubTitle = styled.Text`
     color: red;
 `;
 
+export const ButtonN = styled.Button`
+    background-color: red;
+    padding: 15px;
+    border: solid 1px;
+    border-radius: 2px;
+`;
+
 // export const Input = styled.input`
     // width: 90%;
     // height: 40px;
